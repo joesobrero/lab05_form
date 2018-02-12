@@ -79,19 +79,52 @@
 	<div id="form">
 		<form>
 			<h1 id="title">Order Now</h1>
-			<!-- FIRST NAME -->
-			First name: <br />
-			<input class="last" type="text" name="firstname"> <br />
 
-			<!-- LAST NAME -->
-			Last name: <br />
-			<input class="last" type="text" name="lastname"> <br />
+			<div id="first-half">
+				First name: <br />
+				<input class="last" type="text" name="firstname"> <br />
 
-			<!-- GENDER -->
-			Gender: <br />
-			<input type="radio" name="gender" value="male"> male <br />
-			<input type="radio" name="gender" value="female"> female<br />
-			<input type="radio" name="gender" value="nuetral"> nuetral<br />
+				Last name: <br />
+				<input class="last" type="text" name="lastname"> <br />
+
+				Address: <br />
+				<input class="last" type="text" name="address"> <br />
+
+				City: <br />
+				<input class="last" type="text" name="city"> <br />
+
+				State: <br />
+				<input class="last" type="text" name="state"> <br />
+			</div>
+			<div id="second-half">
+				Zip: <br />
+				<input class="last" type="text" name="zip"> <br />
+
+				Phone Number: <br />
+				<input class="last" type="text" name="phone"> <br />
+
+				Email: <br />
+				<input class="last" type="email" name="email"> <br />
+
+				Gender: <br />
+				<input type="radio" name="gender" value="male"> male <br />
+				<input type="radio" name="gender" value="female"> female<br />
+				<input class="last" type="radio" name="gender" value="nuetral"> nuetral<br />
+
+				Favorite Color: <br />
+				<select>
+	  				<option name="color" value="volvo">blue</option>
+	  				<option name="color" value="saab">green</option>
+					<option name="color" value="opel">yellow</option>
+	 				<option name="color" value="audi">red</option>
+	 				<option name="color" value="audi">purple</option>
+				</select><br />
+			</div>
+			<div id="third-half">
+				Credit Card Number: <br />
+				<input class="last" type="text" name="creditcard"> <br />
+			</div>
+
 			<!-- SUBMIT BUTTON -->
 			<input id="submit" type="submit" name="submit" value="submit">
 		</form>
